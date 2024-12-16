@@ -10,8 +10,10 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "build": "cd client && npm install && npm run build",
-    "start": "cd client && npm start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
